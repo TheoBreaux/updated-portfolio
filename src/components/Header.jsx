@@ -9,20 +9,22 @@ const Header = () => {
   return (
     <header id="header-section">
       <div id="header-content">
-        <h1 className="title">Theo Breaux <span className="wave">👋🏾</span></h1>
+        <h1 className="title">
+          Theo Breaux <span className="wave">👋🏾</span>
+        </h1>
         <h2 className="subtitle">Frontend Engineer</h2>
         <p className="description">
           I build captivating, intuitive, and user-friendly mobile and web
           applications, creating engaging digital experiences.
         </p>
-
+        {/* 
         <a
           className="social-link-images"
           href="https://github.com/TheoBreaux"
           target="_blank"
         >
           <img src={GitHubIcon} alt="github icon" />
-        </a>
+        </a> */}
         <a
           className="social-link-images"
           href="https://www.linkedin.com/in/theobreaux/"
