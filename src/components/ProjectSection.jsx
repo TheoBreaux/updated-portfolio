@@ -25,7 +25,7 @@ const ProjectSection = () => {
           <img
             className="project-image"
             src={GoDutch1}
-            alt=" Food Log App screenshot"
+            alt="Food Log App screenshot"
           />
           <img
             className="project-image"
@@ -85,7 +85,7 @@ const ProjectSection = () => {
         <img
           className="project-image"
           src={FoodLog}
-          alt=" Food Log App screenshot"
+          alt="Food Log App screenshot"
         />
 
         <div className="project-info">
@@ -144,7 +144,7 @@ const ProjectSection = () => {
               href="https://guess-the-country.vercel.app/"
               target="_blank"
             >
-              🌍 Guess the Country Game! 🎉
+              &#127758; Guess the Country Game!&#127881;
             </a>
           </h3>
           <div className="technologies-used">
