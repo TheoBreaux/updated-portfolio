@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 20px 20px;
+  background-color: rgba(25, 55, 88, 255);
+  display: flex;
+  overflow: auto;
+  max-width: 1030px;
+  min-width: 1030px;
+}
+
+html {
+  scroll-behavior: smooth;
+}

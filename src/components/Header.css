@@ -1,0 +1,65 @@
+#header-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header-content {
+  flex: 1;
+  padding: 0;
+}
+
+.social-link-images {
+  margin-right: 2cqb;
+}
+
+.title {
+  font-size: 50px;
+  color: #e2e8f0;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: "Roboto Slab", serif;
+}
+
+.wave {
+  display: inline-block;
+  animation: animate-wave 500ms infinite ease-in-out;
+}
+
+@keyframes animate-wave {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.subtitle {
+  color: #e2e8f0;
+  font-weight: bold;
+
+  font-family: "Roboto Slab", serif;
+}
+
+.description {
+  color: #e2e8f0;
+  margin-top: 16px;
+  font-family: "Roboto Slab", serif;
+}
+
+#image-container {
+  flex: 1;
+  display: flex; /* Ensure the image is centered */
+  justify-content: center;
+  align-items: center;
+}
+
+#profile-image {
+  width: 450px; /* Ensure the image fills its container */
+  height: 450px; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make the image circular */
+}

@@ -1,0 +1,18 @@
+.tech-oval {
+  width: 170px; /* Width of the oval */
+  height: 30px; /* Height of the oval */
+  background-color: #3281d5;
+  border-radius: 17.5px; /* Half of the height */
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.text {
+  font-size: 13px;
+  font-weight: 450;
+  color: #e2e8f0;
+  white-space: nowrap;
+}

@@ -1,0 +1,105 @@
+.project-section-title {
+  font-size: 24px;
+  color: #e2e8f0;
+  font-family: "Roboto Slab", serif;
+}
+
+.project-card {
+  width: auto;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 2px 2px 2px 4px #6685a6;
+  display: flex;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.multiple-image-container {
+  width: 50%;
+  min-height: 450px;
+}
+
+.project-image {
+  width: 50%;
+  max-height: 450px; /* Set maximum height */
+  object-fit: scale-down; /* Maintain aspect ratio and cover entire container */
+}
+
+.project-info {
+  background-color: white;
+  width: 50%;
+  height: 450px;
+  margin-left: 1px;
+  border-right: 4px solid #bdc0c3;
+  padding: 0px 15px 0px 15px;
+}
+
+.project-title {
+  font-size: 24px;
+  color: #3281d5;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.project-title::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0; /* Initially, set width to 0 */
+  height: 2px;
+  background-color: #3281d5;
+  transition: width 0.3s ease; /* Transition width property */
+}
+
+.project-title:hover::after {
+  width: 100%; /* Expand the line to 100% width on hover */
+}
+
+.technologies-used {
+  display: flex;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.go-dutch-text-logo {
+  width: auto;
+  height: 50px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.go-dutch-text-logo:hover {
+  width: 50%;
+  height: auto;
+}
+
+.go-dutch-logo {
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+}
+
+.project-description {
+  font-family: "Roboto Slab", serif;
+  color: #3281d5;
+  font-weight: 400;
+}
+
+.app-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.tiny-icon-link {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}

@@ -1,0 +1,32 @@
+.nav-links {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link {
+  text-decoration: none;
+  position: relative;
+  color: #e2e8f0;
+  font-family: "Roboto Slab", serif;
+  font-size: 24px;
+}
+
+.nav-link-item {
+  list-style-type: none;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0; /* Initially, set width to 0 */
+  height: 2px;
+  background-color: #e2e8f0;
+  transition: width 0.3s ease; /* Transition width property */
+}
+
+.nav-link:hover::after {
+  width: 100%; /* Expand the line to 100% width on hover */
+}

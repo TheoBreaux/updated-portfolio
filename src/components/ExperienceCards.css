@@ -1,0 +1,52 @@
+.card {
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px #134479;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 15px 0px;
+}
+
+.card:hover {
+  opacity: 0.9;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.time-frame {
+  width: 50%;
+  margin: 0;
+  font-size: 18px;
+  color: #3281d5;
+  font-weight: bold;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.job-title {
+  font-size: 25px;
+  margin: 0;
+  font-weight: bold;
+  color: #3281d5;
+}
+
+.summary-list {
+  padding: 0;
+}
+
+.job-description-bullet {
+  margin-left: 15px;
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  font-size: 15px;
+  font-weight: 150;
+}
+
+.tech-icons {
+  display: flex;
+}

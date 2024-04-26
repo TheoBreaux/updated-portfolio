@@ -1,0 +1,35 @@
+.education-section-title {
+  font-size: 24px;
+  color: #e2e8f0;
+  font-family: "Roboto Slab", serif;
+}
+
+.education-card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.education-card {
+  width: 50%;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 2px 2px 2px 4px #6685a6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin: 25px;
+}
+
+.education-location {
+  font-size: 24px;
+  color: #e2e8f0;
+  font-family: "Roboto Slab", serif;
+  font-weight: bolder;
+  margin-top: 0;
+}
+
+.education-info {
+  margin: 0;
+  font-weight: 400;
+}
