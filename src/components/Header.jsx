@@ -17,14 +17,14 @@ const Header = () => {
           I build captivating, intuitive, and user-friendly mobile and web
           applications, creating engaging digital experiences.
         </p>
-        {/* 
+
         <a
           className="social-link-images"
           href="https://github.com/TheoBreaux"
           target="_blank"
         >
           <img src={GitHubIcon} alt="github icon" />
-        </a> */}
+        </a>
         <a
           className="social-link-images"
           href="https://www.linkedin.com/in/theobreaux/"
