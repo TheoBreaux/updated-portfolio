@@ -5,11 +5,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: auto;
+  /* overflow: auto; */
+  overflow-x: hidden;
   min-width: 1030px;
   font-family: "Roboto Slab", serif;
 }
 
-/* html {
+html {
   scroll-behavior: smooth;
-} */
+}
