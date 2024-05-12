@@ -4,7 +4,7 @@
   font-family: "Roboto Slab", serif;
 }
 
-p {
+#about-section {
   color: #e2e8f0;
   font-family: "Roboto Slab", serif;
   font-size: 15px;
@@ -13,4 +13,15 @@ p {
 
 a {
   text-decoration: none;
+}
+
+@media only screen and (max-width: 576px) {
+  .about-section-title {
+    margin: 0;
+  }
+
+  .container {
+    width: 50%;
+    word-wrap: break-word; /* Allow breaking long words */
+  }
 }

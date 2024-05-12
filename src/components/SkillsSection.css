@@ -31,3 +31,27 @@
   font-size: 24px;
   color: #3281d5;
 }
+
+@media only screen and (max-width: 576px) {
+  #skills-section {
+    width: 100%;
+  }
+
+  .skills-card-container {
+    width: 50%;
+    justify-content: space-evenly;
+  }
+
+  .tech-icons {
+    width: 50px;
+    height: 50px;
+  }
+
+  .tech-text {
+    font-weight: bold;
+    font-size: 18px;
+    color: #3281d5;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}

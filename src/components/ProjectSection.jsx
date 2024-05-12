@@ -35,7 +35,7 @@ const ProjectSection = () => {
         </div>
 
         <div className="project-info">
-          <a href="https://demo-go-dutch.vercel.app">
+          <a href="https://demo-go-dutch.vercel.app" target="_blank">
             <img
               src={GoDutchTextLogo}
               alt="go dutch logo"

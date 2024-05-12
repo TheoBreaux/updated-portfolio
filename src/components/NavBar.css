@@ -1,7 +1,39 @@
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.line {
+  width: 30px;
+  height: 3px;
+  background-color: #e2e8f0;
+  margin: 5px;
+  transition: transform 0.3s ease;
+}
+
+.line.active:nth-child(1) {
+  transform: translateY(10px) rotate(45deg);
+}
+
+.line.active:nth-child(2) {
+  opacity: 0;
+}
+
+.line.active:nth-child(3) {
+  transform: translateY(-10px) rotate(-45deg);
+}
+
 .nav-links {
   padding: 0;
   display: flex;
   justify-content: space-between;
+}
+
+.nav-links.show {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
 }
 
 .nav-link {
@@ -10,6 +42,7 @@
   color: #e2e8f0;
   font-family: "Roboto Slab", serif;
   font-size: 24px;
+  margin: 10px 0;
 }
 
 .nav-link-item {
@@ -21,12 +54,46 @@
   position: absolute;
   bottom: -2px;
   left: 0;
-  width: 0; /* Initially, set width to 0 */
+  width: 0;
   height: 2px;
   background-color: #e2e8f0;
-  transition: width 0.3s ease; /* Transition width property */
+  transition: width 0.3s ease;
 }
 
 .nav-link:hover::after {
-  width: 100%; /* Expand the line to 100% width on hover */
+  width: 100%;
+}
+
+@media only screen and (max-width: 576px) {
+  .hamburger-menu {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .nav-links {
+    display: none;
+    align-items: flex-start;
+    transform: translateX(-100%); /* Initially off-screen to the left */
+    transition: transform 0.3s ease; /* Add animation transition */
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 15vh;
+    width: 30%; /* Adjust the width as needed */
+    background-color: #3281d5; /* Change the background color as needed */
+    padding: 5px;
+    z-index: 1000; /* Ensure it appears above other content */
+  }
+
+  .nav-links.show {
+    transform: translateX(0); /* Slide in from the left */
+  }
+
+  .nav-link {
+    margin: 10px 0;
+    text-align: left;
+    color: #fff; /* Change text color as needed */
+    font-size: 15px;
+  }
 }

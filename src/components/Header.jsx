@@ -3,7 +3,6 @@ import LinkedInIcon from "../assets/linkedin-icon.png";
 import GitHubIcon from "../assets/github-icon.png";
 import EmailIcon from "../assets/email-icon.png";
 import ResumeIcon from "../assets/resume-icon.png";
-import ProfileImage from "../assets/profile-image.jpg";
 
 const Header = () => {
   return (
@@ -44,15 +43,12 @@ const Header = () => {
         >
           <img src={ResumeIcon} alt="resume icon" />
         </a>
+
+        
       </div>
 
       <div id="image-container">
-        <img
-          id="profile-image"
-          src={ProfileImage}
-          alt="Profile Image"
-          className="profile-image"
-        />
+        <div id="profile-image" />
       </div>
     </header>
   );

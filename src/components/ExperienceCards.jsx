@@ -3,7 +3,7 @@ import TechnologyIcon from "./TechnologyIcon";
 
 const ExperienceCards = () => {
   return (
-    <>
+    <div className="card-container">
       <div className="card">
         <p className="time-frame">October 2022 - Present</p>
 
@@ -113,7 +113,7 @@ const ExperienceCards = () => {
           </ul>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

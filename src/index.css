@@ -3,11 +3,13 @@ body {
   padding: 20px 20px;
   background-color: rgba(25, 55, 88, 255);
   display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: auto;
-  max-width: 1030px;
   min-width: 1030px;
+  font-family: "Roboto Slab", serif;
 }
 
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
