@@ -76,7 +76,7 @@
   background-position: center top;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 878px) {
   .title {
     font-size: 40px;
     color: #e2e8f0;

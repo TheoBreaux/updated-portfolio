@@ -32,7 +32,7 @@
   color: #3281d5;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 808px) {
   #skills-section {
     width: 100%;
   }

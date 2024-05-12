@@ -156,9 +156,9 @@ const ProjectSection = () => {
           <p className="project-description">
             <span className="app-name">Guess the Country</span> is an engaging
             and interactive country flag guessing game designed to enhance
-            players' knowledge of various national flags. Challenge your flag
-            recognition skills by correctly identifying random country flags and
-            aim to outscore other players!
+            knowledge of various national flags. Challenge your flag recognition
+            skills by correctly identifying random country flags and aim to
+            outscore other players!
           </p>
           <div>
             <a
